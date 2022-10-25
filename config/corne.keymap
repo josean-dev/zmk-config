@@ -25,6 +25,7 @@
                     &kp LGUI &mo 1 &kp RET   &kp SPACE &kp BSPC &mo 2
                         >;
                 };
+
                 layer_below {
 // -----------------------------------------------------------------------------------------
 // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  \   |
@@ -38,17 +39,18 @@
                     	       &kp LGUI &trans   &kp RET     &kp SPACE  &kp BSPC  &trans
                         >;
                 };
+
                 layer_above {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |  \   |
-// | CTRL |  1  |  2  |  3  |  4  |  5  |   |  -  |  =  |  `  |  [  |  ]  |  "|" |
-// | SHFT |  6  |  7  |  8  |  9  |  0  |   |  _  |  +  |  ~  |  {  |  }  |      |
-//                    | GUI |     | Ent |   | SPACE | BKSP |    |
+// |       |  F1  |  F2  |  F3  |  F4  |  F5 |      |  F6  |  F7  |  F8  |  F9  |  F10  |   |
+// |       | Prev | Next | Vol - | Vol + |   |      | LFT | DWN |  UP | RGT |     |     |
+// | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |      |     |     |     |     |     |     |
+//                    |     |     | Play/Pause |    |     |     |     |
                         bindings = <
-   &kp TAB   &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET  &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSLH
-   &kp LCTRL &kp N1   &kp N2 &kp N3   &kp N4   &kp N5      &kp MINUS  &kp EQUAL &kp GRAVE       &kp LBKT &kp RBKT &kp PIPE
-   &kp LSHFT &kp N6   &kp N7 &kp N8   &kp N9   &kp N0      &kp UNDER  &kp PLUS  &kp TILDE       &kp LBRC &kp RBRC &trans
-                    	       &kp LGUI &trans   &kp RET     &kp SPACE  &kp BSPC  &trans
+   &trans     &kp F1        &kp F2       &kp F3       &kp F4       &kp F5          &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &trans
+   &trans     &bt C_PREV    &bt C_NEXT   &bt C_VOL_DN &bt C_VOL_UP &trans          &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &bt BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans   &trans   &trans &trans    &trans &trans
+                          	                        &trans   &trans   &kp C_PP     &trans &trans   &trans
                         >;
                 };
         };
