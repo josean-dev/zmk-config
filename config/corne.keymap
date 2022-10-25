@@ -42,14 +42,14 @@
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  F1  |  F2  |  F3  |  F4  |  F5 |      |  F6  |  F7  |  F8  |  F9  |  F10  |   |
-// | BTCLR| Prev | Next | Vol - | Vol + |   |      | LFT | DWN |  UP | RGT |     |     |
-// | SHFT | BT1 | BT2 | BT3 | BT4 | BT5 |   |      |     |     |     |     |     |     |
+// |       |  F1  |  F2  |  F3  |  F4  |  F5 |      |  F6  |  F7  |  F8  |  F9  |  F10  |   |
+// |       | Prev | Next | Vol - | Vol + |   |      | LFT | DWN |  UP | RGT |     |     |
+// | BTCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |      |     |     |     |     |     |     |
 //                    |     |     | Play/Pause |   |     |     |     |
                         bindings = <
-   &kp TAB    &kp F1       &kp F2       &kp F3       &kp F4       &kp F5           &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &trans
-   &bt BT_CLR &bt C_PREV    &bt C_NEXT   &bt C_VOL_DN &bt C_VOL_UP &trans          &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans   &trans   &trans &trans    &trans &trans
+   &trans     &kp F1        &kp F2       &kp F3       &kp F4       &kp F5          &kp F6   &kp F7   &kp F8 &kp F9    &kp F10 &trans
+   &trans     &bt C_PREV    &bt C_NEXT   &bt C_VOL_DN &bt C_VOL_UP &trans          &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &kp BT_CLR &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4    &trans   &trans   &trans &trans    &trans &trans
                           	                      &kp LGUI   &trans   &kp C_PP     &trans &trans   &trans
                         >;
                 };
