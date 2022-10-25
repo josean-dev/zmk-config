@@ -39,8 +39,6 @@
                     	       &kp LGUI &trans   &kp RET     &kp SPACE  &kp BSPC  &trans
                         >;
                 };
-        };
-};
 
                 raise_layer {
 // -----------------------------------------------------------------------------------------
@@ -55,4 +53,6 @@
                           	                      &kp LGUI   &trans   &kp C_PP     &trans &trans   &trans
                         >;
                 };
+        };
+};
 
