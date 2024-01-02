@@ -64,10 +64,10 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&trans  &kp F1      &kp F2   &kp F3      &kp F4             &kp F5        &kp F6        &kp F7        &kp F8        &kp F9                &kp F10               &trans
-&trans  &kp F11     &kp F12  &kp C_PREV  &kp C_NEXT         &kp C_PP      &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans
-&none   &kp LSHIFT  &none    &none       &kp LS(LG(SPACE))  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3          &bt BT_SEL 4          &trans
-                             &kp LCTRL   &kp LEFT_GUI       &kp LALT      &kp DELETE    &trans        &trans
+&none  &kp F1      &kp F2   &kp F3      &kp F4             &kp F5        &kp F6        &kp F7        &kp F8        &kp F9                &kp F10               &none
+&none  &kp F11     &kp F12  &kp C_PREV  &kp C_NEXT         &kp C_PP      &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none
+&none  &kp LSHIFT  &none    &none       &kp LS(LG(SPACE))  &bt BT_CLR    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3          &bt BT_SEL 4          &none
+                            &kp LCTRL   &kp LEFT_GUI       &kp LALT      &kp DELETE    &trans        &trans
             >;
         };
     };
